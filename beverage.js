@@ -8,9 +8,9 @@ class Beverage{
  
     describe(){
         if(this.isCold){
-           console.log(`${this.ounces} of ${this.name} is Cold ,is delivered in a ${this.container}`);
+           console.log(`${this.ounces} of ${this.name} is served Cold and is delivered in a ${this.container}`);
         }else{
-        console.log(`${this.ounces} of ${this.name} is Hot ,is delivered in a ${this.container}, Please be careful, its HOT!!`);
+        console.log(`${this.ounces} of ${this.name} is served Hot and is delivered in a ${this.container}, Please be careful, its HOT!!`);
         }
     }
 
